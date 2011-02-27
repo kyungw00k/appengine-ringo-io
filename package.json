@@ -1,0 +1,27 @@
+{
+    "name": "appengine-ringo-io",
+    "version": "0.0.1-SNAPSHOT",
+    "description": "Ringo version of appengine-java-io",
+    "keywords": ["fs", "filesystem", "appengine"],
+    "author": "Kyungwook, Park (http://kyungw00k.wordpress.com/)",
+    "lib": "lib",
+    "lean": {
+        "include": [
+            "lib/**/*",
+            "package.json"
+        ]
+    },    
+    "jars": [
+		"jars/appengine-api-labs.jar",
+		"jars/appengine-api-stubs.jar",
+		"jars/appengine-api.jar",
+		"jars/appengine-java-io-0.1.1.jar",
+		"jars/commons-vfs-2.0-SNAPSHOT.jar",
+		"jars/appengine-local-runtime.jar",
+		"jars/commons-collections-3.2.1.jar",
+		"jars/gaevfs-r452.jar",
+		"jars/gaevfs-test-r452.jar",
+		"jars/geronimo-servlet_2.5_spec-1.2.jar",
+		"jars/groovy-all-1.7.0.jar"
+    ]
+}
